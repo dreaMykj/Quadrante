@@ -6,10 +6,10 @@ Console.WriteLine("--- Quadrante Cartesiano ---");
 Console.WriteLine("Entre com o ponto desejado.");
 
 Console.Write("Cordenada x: ");
-x = Convert.ToInt32(Console.ReadLine());
+x = Convert.ToDouble(Console.ReadLine());
 
 Console.Write("Cordenada y: ");
-y = Convert.ToInt32(Console.ReadLine());
+y = Convert.ToDouble(Console.ReadLine());
 
 if (x == 0 && y ==0 ) local = "a origem";
 else if (x == 0) local = "o eixo das ordenadas";
